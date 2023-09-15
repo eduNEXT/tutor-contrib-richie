@@ -21,6 +21,8 @@ config = {
         "HOST": "courses.{{ LMS_HOST }}",
         "MYSQL_DATABASE": "richie",
         "MYSQL_USERNAME": "richie",
+        "BUCKET_NAME": "richieuploads",
+        "MEDIA_BUCKET_NAME": "production-richie-media",
         "ELASTICSEARCH_INDICES_PREFIX": "richie",
     },
 }
